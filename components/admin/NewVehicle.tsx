@@ -66,7 +66,7 @@ export function NewVehicle() {
     const r = await createVehicle({
       plate: plate.replace(/\D/g, ""), make: form.make, model: form.model, trim: form.trim, year: form.year, color: form.color,
       fuel: (form.fuel as never) ?? null, gearbox: gearbox as never, km: kmV ? Number(kmV) : null, hand, test_valid_until: form.test_valid_until,
-      listed_price: listed ? toAgorot(Number(listed)) : null, purchase_price_enc, ownership_flags: form.ownership_flag ? [form.ownership_flag] : [],
+      listed_price: listed ? toAgorot(Number(listed)) : null, purchase_price_enc, ownership_flags: form.ownership_flag ? [form.ownership_flag as never] : [],
     });
     setBusy("");
     if (!r.ok) return setErr(r.error);

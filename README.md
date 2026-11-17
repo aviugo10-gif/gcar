@@ -16,12 +16,14 @@ The app runs in demo mode when the Supabase environment variables are missing. I
 
 ## Production
 
-1. Create a Supabase project. Run `supabase/migrations/0001_init.sql`.
+1. Create a Supabase project. Run `supabase/migrations/0001_init.sql`, then `0002_security.sql`. Follow the checklist in `SECURITY.md`.
 2. Create the staff user in Supabase Auth and add it to the `staff` table. On first sign-in the app enrols an authenticator app (TOTP).
 3. On Vercel, set the variables from `.env.example`. Generate `ID_NUMBER_KEY` and `ID_NUMBER_HMAC_KEY` with `openssl rand -base64 32`.
 4. In the admin, go to "עוד" and then "כספת", set the vault password, and keep the recovery code on paper.
 
 ## Security model
+
+The full details and the go-live checklist are in `SECURITY.md`.
 
 - Every `/admin` page and server action requires password plus TOTP (`aal2`). The database enforces the same rule again in RLS (`is_staff()`).
 - Purchase price, minimum price and all finance rows are encrypted in the browser with the vault key (Argon2id, then AES-GCM). The database and the server only ever see ciphertext.

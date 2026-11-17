@@ -3,7 +3,7 @@ import { z } from "zod";
 import { isDemo, SITE_URL } from "@/lib/env";
 import { db, newId } from "@/lib/demo";
 import { supabaseService } from "@/lib/supabase/server";
-import { clientKey, memLimit, sameOrigin } from "@/lib/server/guard";
+import { clientKey, memLimit, sameOrigin, readJson } from "@/lib/server/guard";
 import { isValidPhone, normalizePhone } from "@/lib/il";
 import { notifyOwner } from "@/lib/notify";
 import { getHolidays, getSettings } from "@/lib/data/public";
@@ -26,7 +26,7 @@ const Body = z.object({
 
 export async function POST(req: Request) {
   if (!(await sameOrigin())) return NextResponse.json({ error: "origin" }, { status: 403 });
-  const parsed = Body.safeParse(await req.json().catch(() => null));
+  const parsed = Body.safeParse(await readJson(req));
   if (!parsed.success) return NextResponse.json({ error: "invalid", issues: parsed.error.issues.map((i) => i.path.join(".")) }, { status: 400 });
   const b = parsed.data;
   if (b.t !== undefined && b.t < 5000) return NextResponse.json({ ok: true });

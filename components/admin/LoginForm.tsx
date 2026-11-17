@@ -16,7 +16,7 @@ export function LoginForm({ demo }: { demo: boolean }) {
   const [err, setErr] = useState("");
   const [busy, setBusy] = useState(false);
   const boxes = useRef<(HTMLInputElement | null)[]>([]);
-  const done = () => router.replace(next.startsWith("/admin") ? next : "/admin");
+  const done = () => router.replace(/^\/admin(\/[\w\-/]*)?$/.test(next) ? next : "/admin");
 
   async function submitPassword(e: React.FormEvent) {
     e.preventDefault();
