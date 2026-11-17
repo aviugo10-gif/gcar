@@ -1,9 +1,11 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 // Demo mode only: a signed cookie stands in for the Supabase session (password + second factor).
 const SECRET = process.env.DEMO_SECRET ?? (process.env.NODE_ENV !== "production" ? "gcar-demo-secret-dev-only" : "");
-if (!SECRET) throw new Error("DEMO_SECRET is required for demo mode outside development");
 export const DEMO_COOKIE = "gc_demo";
-export const sign = (v: string) => `${v}.${createHmac("sha256", SECRET).update(v).digest("hex").slice(0, 32)}`;
+export const sign = (v: string) => {
+  if (!SECRET) throw new Error("DEMO_SECRET is required for demo mode outside development");
+  return `${v}.${createHmac("sha256", SECRET).update(v).digest("hex").slice(0, 32)}`;
+};
 export function verify(cookie?: string): boolean {
   if (!cookie) return false;
   const [v] = cookie.split(".");

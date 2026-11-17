@@ -1,3 +1,4 @@
+export const revalidate = 3600;
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/env";
 import { getCatalog } from "@/lib/data/public";
