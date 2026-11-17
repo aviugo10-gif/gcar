@@ -23,7 +23,7 @@ export async function supabaseServer() {
 
 /** Service role: only for public form endpoints that call the rate-limited SQL functions. Never imported by client code. */
 export function supabaseService() {
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY;
   if (!key) throw new Error("SUPABASE_SERVICE_ROLE_KEY missing");
   return createClient(SUPABASE_URL, key, { auth: { persistSession: false } });
 }
