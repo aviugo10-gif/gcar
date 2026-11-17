@@ -1,0 +1,13 @@
+{
+  "name": "gcar ניהול",
+  "short_name": "gcar",
+  "start_url": "/admin",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "he",
+  "background_color": "#F1F2F4",
+  "theme_color": "#0E0F11",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

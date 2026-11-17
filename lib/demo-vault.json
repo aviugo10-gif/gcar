@@ -1,0 +1,112 @@
+{
+ "note": "DEMO ONLY. Password: gcar-demo-vault. Recovery: FTJA-KLBB-T2DU-LLGZ-U72L-DR9H",
+ "record": {
+  "wrapped_dek": "v1.GsH/LT9fymPM7/qVzLpaL7dcv+U8GGM8jr3LaUkMSVCdlf9E5RxZTmCLcI9XC4Sy5hZQ8WvqhSFza+Gi",
+  "recovery_wrapped_dek": "v1.3y/gTbCGtPUBGLM9e0fhhU0ZVtfvEDSsBpf9rU3b2xgQY2X01Q+2z9fJWS7godl31uE0omE6Qf6E7Gfi",
+  "kdf_salt": "RqufbPhuF/lCkey46b93Ig==",
+  "kdf_params": {
+   "alg": "argon2id",
+   "m": 65536,
+   "t": 3,
+   "p": 1
+  },
+  "check_value": "v1.2v6f4E7pVXwISa4XxSQxpKvwAl7iUXFdki9NI/xjMoXhxUdaKtgDBqzIe4OWVf7DKklyLOtUsVZO0BiRjPkTNWoqdBtXCq2ofs7ZYFvtVEQiKXvVjcj0imJIbQ0="
+ },
+ "prices": {
+  "v1": {
+   "purchase": "v1.j5+CYQe7zrtlEvmNwImakFa00V+Lt4oy4Z6shgdxzRvcIvYL5bV43XV5/n2lrsErKdGZtKqifpbWKtidhKIYM/rV546mOB6UmipOIiYxEJSW37sghiHTJwTtwwQ=",
+   "min": "v1.+vYYOr95o7vGkBq9bv/8Gssk9EUdDrIMfdM5/cgsm1NYQiOWBA7NHaMgtVnMihDoQBCS3g67pS9vKJTt6fV8kJDgE5ojk7ABR79LIehdIs8p3lVdtqsFw90nr08="
+  },
+  "v2": {
+   "purchase": "v1.HcDEgxTUOZY4+9hHlUECOGMKOaYmI9ImkdT2wlU9SBo7q8mqwq1RAPJ00rp+zeaUTSg9SveTwP8yth9rLrgu/OX9mzcIFOS7CbX6Uv9mobyTMhQmkIOsOuZ5r+U=",
+   "min": "v1.psxsICdX7wpXNz455INzyvStFa6hl/BWNWFocteBXKoBNQfgr2uY/mpUjsksyCxeNlnzSImjFBp0WovjRp/THnxMjjvaS/LfvZ63Uk0BazhdbtzYpuHn2Hp/8Co="
+  },
+  "v3": {
+   "purchase": "v1.8pulL6JpBNIRLONc/8AnOOiFnB5NVXlalhnXR/iFAeXIgvdhqshf+3hjQxfLTRS64Mv7udyxIA59ZALgb7M6N9thj0fDZb3pkFSDkR6cITKkLfmqOExNmHynTcw=",
+   "min": "v1.+JJPHiMX0TKBu3Qnup2I85a8m/JjZ/YsosHumPWhMSV5NUGknAkDjpXPoWVsfZ6xGupXXtbdOlpfcm7kphAbD/5GpjgH4Kq6RZEmJj94qtFsvtUgIM/xb4BMbrI="
+  },
+  "v4": {
+   "purchase": "v1.gqdf6FYjqtXz1noDF3hBvmu22VWMczPJ7RSPJrN1sBApJMeaqszGmAgvxAOpLXCjPTR6srhYwd1BewccuV2jtgD0EtZcCZdOnSe7fbKcfpnrK0jxe0g3mSYQdvo=",
+   "min": "v1.wpL5qn7D1pgA+iM22zqDp1cjCh7yj8YWmxfRgoqDZ5oVY2QJSXWGnvnxOr1sNrlmxUjUNQd8kEY6SZQzZYY5cmVDPiGP0xkR7fckWoWL4jtoz38n+zOrDNWFPY4="
+  },
+  "v5": {
+   "purchase": "v1.yVAWcfBA2yvx41NbxOyR3YstY23Kyf+8MPGpZTI6SLPRdgbdTGXdq5azwK+pg0FCvKKHDFvdzqE1rMInF9sf0VfAYoANc4J8n88619LMzgD51/oZmZs738ao6T0=",
+   "min": "v1.NN0giylT/ireeqtr59NoGSvmi0+uZPLy+dRIl3hDT+q5sdRLjtOEe/2CP/D2Hk7Vk4t2la4ROCGD4pI2mVxraX0yyI87kUMiMXO4I9mz1qes4l7HgWI82K7p2zs="
+  },
+  "v6": {
+   "purchase": "v1.yxL0OJXNuOarBK0EMSqftq3HVU6HvN6BYIpMolcD/vDxGq+gmwqT5ZF/hiZNk3uhmEqwaTZ6e4cYTG+8jJ9KBEiUU8ydJ+drlOdz/xZLPWZ6QOdd8BrbPCJRfnU=",
+   "min": "v1.BL19XcS/KPSAtETxO3htu376ZI67Sxkr9j2/xI/kfpq3gaXRRJITYiQ0bbj5JFZNLLBKBALYnqIMe0yLpLIQPmoZCWvwv3J390qnpgZSH933+o3gpQfJMjkrvS4="
+  },
+  "v7": {
+   "purchase": "v1./pQvLv0mqmV06XU/+f+WXtPn1oKjD0GfhL3YVBVtCLAPuQWVhRVREdzbLyze4W4FmtkO7p45SRu/VK8FVWgn6QUcLiFT6ZbnXCUY9P8TjjJs03yY1z43QUfaU2k=",
+   "min": "v1.lGmbm40AnZEZNHUxY82XvWG9XtVfhffPPmVZOfD2fnMQ1K5C7vd8zVcAQMg9YnLNr37e6ABFjcRCumqpCniL/DypHpfuzp7GjXLWHiTjvwE9pVCvaOoJzh01+8g="
+  },
+  "v8": {
+   "purchase": "v1.qigQpo73mfxNwUTzmOiRqOUIldmshV56MHcRJ+cv3TVTGrSm0oBe+shnoBH0gyaZTjondriDdzyhs9uWQ95w8UKSusyd6WmisP0vfqiAUyosgG4I6riamvewrnM=",
+   "min": "v1.JDXoJpdwNF/WZGk7hVe4lbhONrQDVy2MyixtN3m3WifPL36fDL1oXSR5E4m/F2P2PNri2xG5FWEdywwfkqLDP7KBAZiP04ogfNSSrqH0grhUy2bf6FSudtNOags="
+  },
+  "v9": {
+   "purchase": "v1.5cqAca3h5FC+FFCZ5hXaqQNRuoFbw+MEKhYpHVhIHteWt3ZxPCPINBTHeOB5Sh5NkU4Eu8m82WH33OseYUM8P7wVI0bZ8NEBlp1a42mpQqtzczCzJvEKG5WsT00=",
+   "min": "v1.rm96DJp0+SQHmPNmTogE7nTZpPGA1oqn2P2GPihlFEwP8IgaZt0xusxLVXYSI2pfGfwaZra5cQt7JXRXSVj7S4bNGOtqcCIPxEPQGi/IbGYxegN6h63pAeTsQTA="
+  }
+ },
+ "business_expenses": [
+  {
+   "id": "be0",
+   "month": "2026-09-01",
+   "payload_enc": "v1.Z14mvZ/3lH9bFP9ymTcaqd68LlAMPIzlhStYtwMsNvtOVq8EfLKZnxYBq+tOP7HYEhhorsFP+jxYXUy7YYQxBZNCUe0V1YqQD4sw9MDMnMxvnuQfLTm2e6xDm2HhQTHYRBfj4WRyn7Don12GfmL4LjRSzuQQco20aSauMOTr7CIgFa/y1cW1P9umPZD+d296/k9/tn1nNgMl3325XrNc4AbecWBeOfGg8VgiIXh27jIJSLQ8NNm1TeBfua9Yi847l2jDAzhfnGn8AN8+iN4MsU0Mnz4eKsUHTDaqW8dC1NuR/cNlOYRIrfT2DHc4hHGVl2PGz1O8XU5Lp3H3zKuJqdm+foqqitzS98ZX9WvgRuvuNf1QOAvmQM6nBL4="
+  },
+  {
+   "id": "be1",
+   "month": "2026-09-01",
+   "payload_enc": "v1.8r2glDB+K4tY30IKfA+q6i+4fNag7zd1/vpmcPtAHI3bw4RKxmPV21pKu/fLJ6MXSZH/2s8aWt8U0KvWhJt3PZq6Ju08RhzKQ9xCbobqoifvyf1OMHZpz/zK8l0="
+  },
+  {
+   "id": "be2",
+   "month": "2026-09-01",
+   "payload_enc": "v1.6xRFtKMFS2vX1+22x7pvkplZggsbpk/iJPeU0/n1s+GQEJGec4u1qMHPaJEgsEzSe62KbrA/9xIw5b/0RQkAaYGFplqxJVReaabJBg5Xf6FNFk+frQZ02kvOr/Y="
+  },
+  {
+   "id": "be3",
+   "month": "2026-10-01",
+   "payload_enc": "v1.VbGjgDiyVkdlwBcZw00rHq48np/dsBudocYTyFZnElIP6Q84m/d9cwHgBhc/Rbg+X1O8tQgmTfmBIXdZL2rLJuGu12BEXKy5OfNQ4hLETbmCVzh1VVoMeo1hlvKD+jAipJ/W0OrfUXwuyEyXdogmcxUhMSzWS+ozQ9gYRiEsBAX3RiYDJ9rRJYJZzJJOSU3ZjPqgAXeH5PbM7DX4xLCY832aKp5AtEES6TYiA/viqUPsl4foEgnBlFIkKkrJ8DvK4c6q8ji7oa+sONdy1zxeweFV6tV8KVByifqENbGEySH3MC6Sc0763vvzDePAl/PTNf6zZJgz+egymH7jRja1Hzq8LGA2upbgJA75ZO26q0g9r7FG/xGgjF+S+Go="
+  },
+  {
+   "id": "be4",
+   "month": "2026-10-01",
+   "payload_enc": "v1.oshJYdCrkPrrlr+3Zm6GudUv24kr8TrY9/dGPRLoyvHjqXk0ncirlt7dgFe85nf0/hlTy3HuoIFa9JXGqiKj8vv3OspcK7dCJ/ekS67i4k2sXT1OM1+uK14rWWI="
+  },
+  {
+   "id": "be5",
+   "month": "2026-10-01",
+   "payload_enc": "v1.U+4W9ziOoVZ6Kkj3ZBcMCGHCaaAzqwYrOR41/Zb1f3Z/u1JBSk7QD1ScfZgv9tYoaFbaMuEkGeRA8SvZI9g5B377smDIhYvLn9O4VBONxPpD62oX5XI6OIgrg0k="
+  },
+  {
+   "id": "be6",
+   "month": "2026-11-01",
+   "payload_enc": "v1.+/pcx5MdoEfx8v4qlRveGyG1Igetj7+tiZ8no6CUFrBQwBwasKmN7a5Ok91H3JNuQvScuNSqpsK4SMSZTsBtTChtF8H5fCDLimkKwN/Y0TBpEyRe9zifvTW7MWKa2iwgM8/y64wT3advCr7054RVafWzkYtcz5jX8weI+frXVXgfVM9hvgviPKT1q3JQmNbhehd42lvavj8PcAjUoJUTZJ+5rLfCxC4JMwfWeG1JL8xBxng/cqr4OMBv70Tk+EwvDSbP5S7pZulVfWnMDqSRByrcYtderB+2QLg3Zgk8amryT3dss6bOypM3JjQEE9Kg/L/Yteci7P29mb2E4tfoDzlfLZmOGM7YH194dKsZ+0qfHEkF7xtIidepV9E="
+  },
+  {
+   "id": "be7",
+   "month": "2026-11-01",
+   "payload_enc": "v1.5dTyhXW843b6Eleg5AbSP95R6zWCftopO8/PfBFcJxCPOWtDQl6fO8FLJxLIvG/YwZhTzSrbIU7hnjjTihHa3EHXDenukjjyC1S5huhTKufnZSuw7tlJIgb9e04="
+  }
+ ],
+ "other_income": [
+  {
+   "id": "oi0",
+   "month": "2026-09-01",
+   "payload_enc": "v1.G0xdafwTIp+hemoPgW/j8KZhRiUzDqVF6jmryPfrPM/APU5wl5FoCBjkBZ1BATNCY33bkAe9vowjLh3YEwr9F7wSIWubve+c9bvBmACuVb6S44C2uab8R7RQPZnWIIVs3xuOpDdAAPgGB496L2fnP+WLIJU6QanWhF5sMIgE5MRj3nr2w1UHt+oU8D64G3EbNzG9iK+4e9P1kPfhAJogz409DlZC9H7uJlcto6OXzsp8jHnrgs+wKT9BFdqmxmjtyqR8PMDOp4eK72fpWOh0QYUjdC23jXfvAkpJM2N6Ut7tYc0hCLvjMtKK1Iu7gmML+eeGMybdhnt6ptHocoT+Ut6kOdrwZdRWUARWtPw4v71YwuFHlgHlIL5LaRI="
+  },
+  {
+   "id": "oi1",
+   "month": "2026-10-01",
+   "payload_enc": "v1.cTTg00ojzfXd+MV8fpfbFG1zuoyt55S6T6HQfP4eypLptJiGSFYsobkWXrC6cReg0iG9EM8z49RQhZPemq6jS6ETrn3WAFhZNlsi50w+IkZjHs7NCt/XU+tolZqrdFeiy1QxD9RMUpXkcgxo6eMS4pl1TmjX2kcPybZfjD+ieqbL8sdO9WCeOmoEnx6uUiRdFv8s0OH29ZrbcopWftJKdaJjIINkQxfdQN1ksedLPGA+579n/tUAGY/8i9PQ9bilQ3Ne+AS6E5c+z7REQXA+az9VZ40jjU+E71UVVsQER2NRzafFEVlJRhQ6MYOfS7isxvXb0xU7EiEPYu+jPPkyCQB3JnDnoWZXPoYtnuBCyoUHnoR/mWvhbaW++dU="
+  },
+  {
+   "id": "oi2",
+   "month": "2026-11-01",
+   "payload_enc": "v1.TV7Mk2+s/Ej1t37NEMcv3SGQe/XfAsI/u1nRLpFe1fZ5G0a4m72ca8LTfwGo/USP6XFIpx4+KM16/XtShWmORiYa529UYBSEbRZBMU8BF0+Oa6yTdMT6t2BZxrrCMb7gcyVHLo/l/TK1b9bVOGtZqPebjNfnLYIC8hwRYOSuwPCJj+tm/fhGKvLrarenyvkbEZOL+iEcIaisSPi79shUNmHnh+uv4SLUaIi7BDpDzL5i+R/vGCeqF9BgE0/v9zfqC72Q0IA4uQIr+IDiuNvdXxnaI78yaLgku62Q19RYY8NF79eBuwgFXfkotxIvw+NmEkE9hHRgNXEbUI2bEaCeK1RmS0obh0+fsBEacNnUGpPD68iZKnaG/oAvosY="
+  }
+ ]
+}
